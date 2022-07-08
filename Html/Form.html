@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/png" href="../Images/form.png" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../Css/visual.css">
+    <title>Form for contact</title>
+</head>
+<body>
+    <!--Sessão da mensagem de Contate-nos-->
+  <section class="textcontact">
+    <h1 class="animtext">Contact Us</h1>
+    <h1 class="animtext">Here <img src="../Images/arrow-right.png" class="formatarrow"></h1>
+
+  </section>
+   <!-- Sessão do Formulário-->
+    <section class="formstyle">
+        <form  class="positioninput" action="https://formsubmit.co/gerebala159@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Js/ProjectForm/Html/Sucess.html">   
+            <input type="hidden" name="_cc" value="Geremias99999@gmail.com">
+            <input type="hidden" name="_autoresponse" value="Olá, recebemos sua mensagem, brevemente estaremos te respondendo.">
+            <div>
+                <label> Name </label> <input type="text" name="name" placeholder="Ex:Antony" class="w3-input"> 
+            </div>
+            <br>
+            <div >
+                <label> Email</label><input type="email" name="email" placeholder="Email" class="w3-input">
+            </div> 
+            <br>
+            <div >
+                <label> Subject </label><input type="text" name="subject" placeholder="Contact/Questions" class="w3-input">
+            </div> 
+            <br>
+            <div>
+                <textarea class="w3-input border"  name="message" rows="10" cols="27" placeholder="Deixe aqui a sua mensagem" > </textarea>
+            </div>
+            <div class="spacebutton"> 
+                <button type="submit">Enviar</button>
+            </div>
+            
+        </form>
+
+    </section>
+</body>
+</html>

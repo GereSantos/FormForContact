@@ -1,0 +1,71 @@
+.formstyle{
+    height:400%;
+    width:30%;
+    border:solid;
+
+    margin-left: 35%;
+    margin-top: -18%;
+    background-color:#4169E1;
+    
+}
+
+.positioninput{
+    height: 430%;
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.border{
+    border: solid;
+    border-color: aquamarine;
+}
+
+.spacebutton{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+body{
+    background-image: url('../Images/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background.jpg');
+  
+}
+
+.textcontact{
+    color:white;
+    height:10%;
+    width: 18%;
+    margin-top: 12%;
+    margin-left: 12%;
+}
+
+.animtext{
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes example {
+    from {top: 0px;}
+    to {top: 100px;}
+  }
+
+  .formatarrow{
+    height: 30%;
+    width: 40%;
+  }
+
+  .button4 {
+    background-color: #e7e7e7; color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.imageformat{
+    height: 10%;
+    width: 10%;
+    margin-left:75%;
+    margin-top: 6%;;
+}
